@@ -1,0 +1,49 @@
+{
+  "name": "gh-topics",
+  "version": "0.0.0",
+  "description": "Set and get a GitHub repository topic WIP",
+  "license": "MIT",
+  "repository": "RichardLitt/gh-topics",
+  "author": {
+    "name": "Richard Littauer",
+    "email": "richard.littauer@gmail.com",
+    "url": "http://burntfen.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "standard && ava"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "github",
+    "git",
+    "topic",
+    "topics",
+    "repo",
+    "repository",
+    "set",
+    "get",
+    "tag"
+  ],
+  "dependencies": {
+    "ghauth": "^3.2.0",
+    "gitconfiglocal": "^2.0.1",
+    "is-array": "^1.0.1",
+    "meow": "^3.6.0",
+    "octokat": "^0.6.2",
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "ava": "^0.18.1"
+  },
+  "coordinates": [
+    45.5120442,
+    -73.5700947
+  ]
+}
