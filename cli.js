@@ -24,9 +24,9 @@ var cli = meow([`
     Set and get a GitHub repository description
     $ gh-description RichardLitt/gh-description 'ponies and unicorns'
     New description: ponies and unicorns
-`, {
+`], {
   alias: {}
-}])
+})
 
 pify(gitconfig)(process.cwd())
 .then(config => {
